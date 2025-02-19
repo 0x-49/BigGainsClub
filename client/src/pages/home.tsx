@@ -5,6 +5,7 @@ import SuccessMetrics from "@/components/sections/success-metrics";
 import TradingTech from "@/components/sections/trading-tech";
 import LearningPath from "@/components/sections/learning-path";
 import RiskApproach from "@/components/sections/risk-approach";
+import UseCasesCarousel from "@/components/sections/use-cases-carousel";
 import CommunitySuccess from "@/components/sections/community-success";
 import Pricing from "@/components/sections/pricing";
 import Testimonials from "@/components/sections/testimonials";
@@ -48,6 +49,7 @@ export default function Home() {
       <TradingTech />
       <LearningPath />
       <RiskApproach />
+      <UseCasesCarousel />
       <CommunitySuccess />
       <Pricing />
       <Testimonials />
