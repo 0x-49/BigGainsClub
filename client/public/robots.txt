@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow legal pages from indexing
+Disallow: /terms
+Disallow: /privacy
+Disallow: /cookies
+
+Sitemap: https://biggainsclub.com/sitemap.xml
