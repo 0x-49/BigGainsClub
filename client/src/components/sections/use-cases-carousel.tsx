@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
 const useCases = [
-  {
+  {//1
     title: "Futures Scalping Success",
     trader: "Michael R.",
     profit: "$3,200",
@@ -20,7 +20,7 @@ const useCases = [
       "Scaled out at predefined targets"
     ]
   },
-  {
+  {//2
     title: "Swing Trading Victory",
     trader: "Sarah K.",
     profit: "$5,800",
@@ -34,7 +34,7 @@ const useCases = [
       "Position sizing optimization"
     ]
   },
-  {
+  {//3
     title: "Options Strategy Win",
     trader: "David L.",
     profit: "$2,900",
@@ -48,7 +48,7 @@ const useCases = [
       "Perfect timing execution"
     ]
   },
-  {
+  {//4
     title: "Index Breakout Trade",
     trader: "Emma T.",
     profit: "$4,500",
@@ -62,7 +62,7 @@ const useCases = [
       "Proper position sizing"
     ]
   },
-  {
+  {//5
     title: "Forex Reversal Play",
     trader: "James H.",
     profit: "$3,700",
@@ -76,7 +76,7 @@ const useCases = [
       "Risk management execution"
     ]
   },
-  {
+  {//6
     title: "Commodity Trend Ride",
     trader: "Lisa M.",
     profit: "$6,200",
@@ -104,7 +104,7 @@ const useCases = [
       "Risk-free profit capture"
     ]
   },
-  {
+  {//8
     title: "Stock Gap Trading",
     trader: "Rachel B.",
     profit: "$3,900",
@@ -132,7 +132,7 @@ const useCases = [
       "Risk parameter setting"
     ]
   },
-  {
+  {//10
     title: "Day Trading Precision",
     trader: "Maria S.",
     profit: "$2,700",
@@ -146,7 +146,7 @@ const useCases = [
       "Precise execution"
     ]
   },
-  {
+  {//11
     title: "Momentum Strategy Win",
     trader: "Chris P.",
     profit: "$5,400",
@@ -160,7 +160,7 @@ const useCases = [
       "Profit maximization"
     ]
   },
-  {
+  {//12
     title: "Mean Reversion Trade",
     trader: "Nina R.",
     profit: "$3,300",
