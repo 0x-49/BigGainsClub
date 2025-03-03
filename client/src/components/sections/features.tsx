@@ -1,12 +1,12 @@
-import { motion } from "framer-motion";
+oimport { motion } from "framer-motion";
 import { LineChart, Signal, Users, Zap } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
 const features = [
   {
     icon: Signal,
-    title: "Real-Time Signals",
-    description: "Get instant access to high-probability trade setups across multiple markets."
+    title: "Real-Time Alpha Signals",
+    description: "Stop guessing, start knowing. Get *instant access* to *battle-tested, high-probability trade setups* across crypto, forex, and more. These aren't just 'signals', they're your *unfair advantage*."
   },
   {
     icon: Users,
@@ -31,11 +31,8 @@ export default function Features() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Trading Excellence Unleashed
+            Your Arsenal for Market Domination
           </h2>
-          <p className="text-lg text-muted-foreground">
-            Discover the tools and resources that set us apart
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

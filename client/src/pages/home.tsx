@@ -10,8 +10,21 @@ import CommunitySuccess from "@/components/sections/community-success";
 import Pricing from "@/components/sections/pricing";
 import Testimonials from "@/components/sections/testimonials";
 import Community from "@/components/sections/community";
-import Newsletter from "@/components/sections/newsletter";
 import Footer from "@/components/sections/footer";
+import CtaSection1 from "@/components/sections/cta-section-1";
+import CtaSection2 from "@/components/sections/cta-section-2";
+import CtaSection3 from "@/components/sections/cta-section-3";
+import CtaSection4 from "@/components/sections/cta-section-4";
+import CtaSection5 from "@/components/sections/cta-section-5";
+import CtaSection6 from "@/components/sections/cta-section-6";
+import CtaSection7 from "@/components/sections/cta-section-7";
+import CtaSection8 from "@/components/sections/cta-section-8";
+import CtaSection9 from "@/components/sections/cta-section-9";
+import CtaSection10 from "@/components/sections/cta-section-10";
+import CtaSection11 from "@/components/sections/cta-section-11";
+import CtaSection12 from "@/components/sections/cta-section-12";
+
+
 
 export default function Home() {
   return (
@@ -44,17 +57,28 @@ export default function Home() {
       </Helmet>
 
       <Hero />
+      <CtaSection1 />
       <Features />
+      <CtaSection2 />
       <SuccessMetrics />
+      <CtaSection3 />
       <TradingTech />
+      <CtaSection4 />
       <LearningPath />
+      <CtaSection5 />
       <RiskApproach />
+      <CtaSection6 />
       <UseCasesCarousel />
+      <CtaSection7 />
       <CommunitySuccess />
+      <CtaSection8 />
       <Pricing />
+      <CtaSection9 />
       <Testimonials />
+      <CtaSection10 />
       <Community />
-      <Newsletter />
+      <CtaSection11 />
+      <CtaSection12 />
       <Footer />
     </div>
   );

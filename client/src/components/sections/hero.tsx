@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+oimport { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
 import TradingTerminal from "@/components/ui/trading-terminal";
 import { GlowingButton } from "@/components/ui/glowing-button";
@@ -16,10 +16,10 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70">
-              Big Gains Club
+              Big Gains Club: **Where Ordinary Traders Become Market Dominators.**
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Join the elite community of traders mastering the markets through advanced signals, real-time mentorship, and cutting-edge analytics.
+              Forget 'community hugging' and 'safe spaces'. **Join the elite tribe of traders obsessed with one thing: GAINS.** Get the advanced signals, real-time mentorship, and cutting-edge analytics you need to **stop sucking and start dominating.**
             </p>
             <div className="flex gap-4">
               <GlowingButton
@@ -31,6 +31,21 @@ export default function Hero() {
                 Join Now <ChevronRight className="h-4 w-4 ml-2" />
               </GlowingButton>
             </div>
+            <p className="text-xl md:text-2xl text-muted-foreground mb-8">
+              Tired of being a spectator?  **Stop being a trading pussy.** Demand your f\*cking gains. Start trading like the 1%. Real mentorship, real signals, real profits – all here.
+            </p>
+            <p className="text-xl md:text-2xl text-muted-foreground mb-8">
+              Tired of being a spectator?  **Stop being a trading pussy.** Demand your f\*cking gains. Start trading like the 1%. Real mentorship, real signals, real profits – all here.
+            </p>
+            <p className="text-xl md:text-2xl text-muted-foreground mt-8">
+              Tired of being a spectator?  **Stop being a trading pussy.** Demand your f\*cking gains. Start trading like the 1%. Real mentorship, real signals, real profits – all here.
+            </p>
+            <p className="text-xl md:text-2xl text-muted-foreground mt-8">
+              Tired of being a spectator?  **Stop being a trading pussy.** Demand your f\*cking gains. Start trading like the 1%. Real mentorship, real signals, real profits – all here.
+            </p>
+            <p className="text-xl md:text-2xl text-muted-foreground mt-8">
+              Tired of being a spectator?  **Stop being a trading pussy.** Demand your f\*cking gains. Start trading like the 1%. Real mentorship, real signals, real profits – all here.
+            </p>
           </motion.div>
 
           <motion.div
