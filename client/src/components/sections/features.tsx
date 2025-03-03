@@ -1,4 +1,4 @@
-oimport { motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { LineChart, Signal, Users, Zap } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
