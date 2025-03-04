@@ -1,4 +1,4 @@
-oimport { motion } from "framer-motion";
+ import { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
 import TradingTerminal from "@/components/ui/trading-terminal";
 import { GlowingButton } from "@/components/ui/glowing-button";
@@ -16,36 +16,25 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70">
-              Big Gains Club: **Where Ordinary Traders Become Market Dominators.**
+              Big Gains Club: <strong>Where Ordinary Traders Become Market Dominators.</strong>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Forget 'community hugging' and 'safe spaces'. **Join the elite tribe of traders obsessed with one thing: GAINS.** Get the advanced signals, real-time mentorship, and cutting-edge analytics you need to **stop sucking and start dominating.**
+              Forget 'community hugging' and 'safe spaces'. <strong>Join the elite tribe of traders obsessed with one thing: GAINS.</strong> Get the advanced signals, real-time mentorship, and cutting-edge analytics you need to <strong>stop sucking and start dominating.</strong>
             </p>
             <div className="flex gap-4">
               <GlowingButton
                 as="a"
-                href="https://whop.com/big-gains-club/"
+                href="https://whop.com/big-gains-club/?a=digitalartlab"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Join Now <ChevronRight className="h-4 w-4 ml-2" />
               </GlowingButton>
-            </div>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Tired of being a spectator?  **Stop being a trading pussy.** Demand your f\*cking gains. Start trading like the 1%. Real mentorship, real signals, real profits – all here.
+            </div>        <p className="text-xl md:text-2xl text-muted-foreground mb-8">
+
+              Tired of being a spectator? <strong>Stop being a trading pussy.</strong> Demand your f*cking gains. <strong>Start trading like the 1%. Real mentorship, real signals, real profits</strong> – all here.
             </p>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Tired of being a spectator?  **Stop being a trading pussy.** Demand your f\*cking gains. Start trading like the 1%. Real mentorship, real signals, real profits – all here.
-            </p>
-            <p className="text-xl md:text-2xl text-muted-foreground mt-8">
-              Tired of being a spectator?  **Stop being a trading pussy.** Demand your f\*cking gains. Start trading like the 1%. Real mentorship, real signals, real profits – all here.
-            </p>
-            <p className="text-xl md:text-2xl text-muted-foreground mt-8">
-              Tired of being a spectator?  **Stop being a trading pussy.** Demand your f\*cking gains. Start trading like the 1%. Real mentorship, real signals, real profits – all here.
-            </p>
-            <p className="text-xl md:text-2xl text-muted-foreground mt-8">
-              Tired of being a spectator?  **Stop being a trading pussy.** Demand your f\*cking gains. Start trading like the 1%. Real mentorship, real signals, real profits – all here.
-            </p>
+            
           </motion.div>
 
           <motion.div

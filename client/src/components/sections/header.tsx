@@ -18,7 +18,14 @@ export default function Header() {
       <nav className="container mx-auto px-4 flex items-center justify-between py-4">
         <div className="flex items-center gap-8">
           <Link href="/">
-            <a className="text-2xl font-bold text-primary">Big Gains Club</a>
+            <a className="flex items-center gap-2">
+              <img
+                src="https://landing-page-images-seo.s3.eu-north-1.amazonaws.com/BigGainsLogo.webp"
+                alt="Big Gains Club Logo"
+                className="h-8 w-auto"
+              />
+              <span className="text-2xl font-bold text-primary">Big Gains Club</span>
+            </a>
           </Link>
           
           {/* Desktop Navigation */}

@@ -7,13 +7,12 @@ export default function Community() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Join Our Trading Community
+            Become Part of Something Bigger: Join the Big Gains Tribe
           </h2>
           <p className="text-lg text-muted-foreground">
-            Connect, learn, and grow with over 600+ active traders
+            Join 600+ Ambitious Traders on the Path to Domination.
           </p>
         </div>
-
         <div className="grid md:grid-cols-3 gap-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -23,9 +22,9 @@ export default function Community() {
             className="text-center"
           >
             <Users className="h-12 w-12 text-primary mx-auto mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Active Community</h3>
+            <h3 className="text-xl font-semibold mb-2">Ruthlessly Supportive Community</h3>
             <p className="text-muted-foreground">
-              Engage with experienced traders in our premium Discord server
+              Engage with <strong>battle-hardened traders</strong> in our <strong>exclusive premium Discord</strong>. Get honest feedback, share winning strategies, and <strong>rise together – or get left behind.</strong>
             </p>
           </motion.div>
 
@@ -37,9 +36,9 @@ export default function Community() {
             className="text-center"
           >
             <MessageSquare className="h-12 w-12 text-primary mx-auto mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Live Discussions</h3>
+            <h3 className="text-xl font-semibold mb-2">Daily Alpha Insights & Live Market Breakdowns</h3>
             <p className="text-muted-foreground">
-              Daily market analysis and trading insights from our experts
+              <strong>Tap into the minds of our expert traders</strong> with daily market analysis and live trading insights. <strong>Unfiltered, actionable, and directly from the front lines of the market.</strong>
             </p>
           </motion.div>
 
@@ -51,9 +50,9 @@ export default function Community() {
             className="text-center"
           >
             <TrendingUp className="h-12 w-12 text-primary mx-auto mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Growth Focus</h3>
+            <h3 className="text-xl font-semibold mb-2">Relentless Focus on Growth & Profitability</h3>
             <p className="text-muted-foreground">
-              Learn, implement, and improve your trading strategy
+              We're not here for hand-holding. We're here for <strong>growth and profit.</strong> <strong>Learn, implement, dominate, repeat.</strong> This is a community built for <strong>results, not excuses.</strong>
             </p>
           </motion.div>
         </div>

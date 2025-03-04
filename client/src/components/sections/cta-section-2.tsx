@@ -7,7 +7,7 @@ const CTASection2 = () => {
     <div className="responsive-container relative py-20">
       <div className="text-center">
         <p className="text-blue-1200 dark:text-blue-8400 mb-12 max-w-3xl mx-auto text-xl leading-relaxed">
-          Tired of trading losses?  It's time to flip the script.  Big Gains Club Premium delivers the edge you need to finally profit consistently.
+          <em><em>Still EATING LOSSES in the market?  Enough is enough.</em></em>  It's time to flip the f\<em>cking script.  Big Gains Club Premium delivers the edge you need to finally profit consistently.</em>
         </p>
         <a
           href={AFFILIATE_URL}

@@ -5,17 +5,17 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 const testimonials = [
   {
     name: "Tyler Murray",
-    text: "Have passed 3 funded challenges in a little over a month after joining. If you can manage risk its pretty hard not pass from just signal botting",
+    text: "<strong>Passed 3 funded challenges in one month</strong> after joining. If you can manage risk its pretty hard not pass from just <strong>signal botting</strong>",
     initials: "TM"
   },
   {
     name: "Kyle Gosson",
-    text: "Best thing you can get for your money. I'd pay the membership just for the chat. Elite group 💪",
+    text: "I'd pay the membership just for the chat. <strong>Elite group 💪</strong>",
     initials: "KG"
   },
   {
     name: "Vinh T Nguyen",
-    text: "Ant makes it too easy to learn how to trade",
+    text: "<strong>Ant makes it too easy to learn how to trade</strong>",
     initials: "VN"
   }
 ];
@@ -26,11 +26,8 @@ export default function Testimonials() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Trader Success Stories
+            Member Triumphs: Real Traders, Real Results
           </h2>
-          <p className="text-lg text-muted-foreground">
-            Hear from our community members
-          </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
@@ -54,7 +51,7 @@ export default function Testimonials() {
                       <p className="font-semibold">{testimonial.name}</p>
                     </div>
                   </div>
-                  <p className="text-muted-foreground">"{testimonial.text}"</p>
+                  <p className="text-muted-foreground" dangerouslySetInnerHTML={{ __html: testimonial.text }} />
                 </CardContent>
               </Card>
             </motion.div>

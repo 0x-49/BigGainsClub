@@ -12,13 +12,8 @@ const useCases = [
     profit: "$3,200",
     timeframe: "2 Hours",
     strategy: "ES Mini Futures",
-    description: "Using volume profile analysis and order flow techniques to capture quick scalp trades during high-volatility market hours.",
-    keyPoints: [
-      "Identified key support level",
-      "Monitored order flow imbalance",
-      "Utilized tight stop-loss strategy",
-      "Scaled out at predefined targets"
-    ]
+    description: "Trade Breakdown: Michael used Big Gains Club volume profile analysis and order flow techniques to snag a rapid $3,200 scalp on ES Futures in just 2 hours. He spotted key support, nailed the order flow imbalance, locked in profits. Proof that our system delivers - FAST profits in ANY market.",
+    keyPoints: []
   },
   {//2
     title: "Swing Trading Victory",
@@ -26,13 +21,8 @@ const useCases = [
     profit: "$5,800",
     timeframe: "5 Days",
     strategy: "Crypto Pairs",
-    description: "Combined technical analysis with market sentiment to capture a major trend in ETH/USD pair.",
-    keyPoints: [
-      "Multiple timeframe analysis",
-      "Risk-reward ratio 1:3",
-      "Trailing stop implementation",
-      "Position sizing optimization"
-    ]
+    description: "Trade Breakdown: Sarah used a combination of technical analysis and market sentiment to capture a major trend in the ETH/USD pair, netting $5,800 in 5 days.",
+    keyPoints: []
   },
   {//3
     title: "Options Strategy Win",
@@ -40,13 +30,8 @@ const useCases = [
     profit: "$2,900",
     timeframe: "3 Days",
     strategy: "SPY Options",
-    description: "Executed a well-timed butterfly spread during earnings season using volatility analysis.",
-    keyPoints: [
-      "IV crush anticipation",
-      "Greek parameters analysis",
-      "Risk defined strategy",
-      "Perfect timing execution"
-    ]
+    description: "Trade Breakdown: David executed a well-timed butterfly spread during earnings season, using volatility analysis to capture a $2,900 win in just 3 days.",
+    keyPoints: []
   },
   {//4
     title: "Index Breakout Trade",
@@ -54,13 +39,8 @@ const useCases = [
     profit: "$4,500",
     timeframe: "1 Day",
     strategy: "NQ Futures",
-    description: "Capitalized on a major technical breakout using volume confirmation and momentum indicators.",
-    keyPoints: [
-      "Pattern recognition",
-      "Volume confirmation",
-      "Momentum alignment",
-      "Proper position sizing"
-    ]
+    description: "Trade Breakdown: Emma capitalized on a major technical breakout using volume confirmation and momentum indicators, netting $4,500 in just 1 day.",
+    keyPoints: []
   },
   {//5
     title: "Forex Reversal Play",
@@ -68,13 +48,8 @@ const useCases = [
     profit: "$3,700",
     timeframe: "4 Hours",
     strategy: "EUR/USD",
-    description: "Identified and traded a key reversal pattern using price action and institutional order flow.",
-    keyPoints: [
-      "Price action mastery",
-      "Support/resistance levels",
-      "Order flow analysis",
-      "Risk management execution"
-    ]
+    description: "Trade Breakdown: James identified and traded a key reversal pattern using price action and institutional order flow, banking $3,700 in just 4 hours.",
+    keyPoints: []
   },
   {//6
     title: "Commodity Trend Ride",
@@ -82,13 +57,8 @@ const useCases = [
     profit: "$6,200",
     timeframe: "1 Week",
     strategy: "Gold Futures",
-    description: "Successfully rode a major trend in gold futures using a systematic trend-following approach.",
-    keyPoints: [
-      "Trend identification",
-      "Multiple entry scaling",
-      "Trailing stop method",
-      "Profit target achievement"
-    ]
+    description: "Trade Breakdown: Lisa successfully rode a major trend in gold futures using a systematic trend-following approach, generating $6,200 in 1 week.",
+    keyPoints: []
   },
   {
     title: "Crypto Arbitrage Success",
@@ -96,13 +66,8 @@ const useCases = [
     profit: "$2,400",
     timeframe: "1 Day",
     strategy: "Cross-Exchange",
-    description: "Executed multiple arbitrage opportunities across different crypto exchanges.",
-    keyPoints: [
-      "Price disparity identification",
-      "Quick execution system",
-      "Fee consideration",
-      "Risk-free profit capture"
-    ]
+    description: "Trade Breakdown: Alex executed multiple arbitrage opportunities across different crypto exchanges, generating $2,400 in 1 day.",
+    keyPoints: []
   },
   {//8
     title: "Stock Gap Trading",
@@ -110,13 +75,8 @@ const useCases = [
     profit: "$3,900",
     timeframe: "2 Hours",
     strategy: "Pre-Market Gaps",
-    description: "Capitalized on pre-market gaps using statistical analysis and historical patterns.",
-    keyPoints: [
-      "Gap analysis framework",
-      "Pre-market preparation",
-      "Early entry execution",
-      "Profit target achievement"
-    ]
+    description: "Trade Breakdown: Rachel capitalized on pre-market gaps using statistical analysis and historical patterns, generating $3,900 in just 2 hours.",
+    keyPoints: []
   },
   {
     title: "Options Flow Success",
@@ -124,13 +84,8 @@ const useCases = [
     profit: "$4,800",
     timeframe: "2 Days",
     strategy: "Unusual Options",
-    description: "Followed smart money movement in options market to capture a significant move.",
-    keyPoints: [
-      "Options flow analysis",
-      "Institutional tracking",
-      "Strategic entry timing",
-      "Risk parameter setting"
-    ]
+    description: "Trade Breakdown: Kevin followed smart money movement in the options market to capture a significant move, generating $4,800 in 2 days.",
+    keyPoints: []
   },
   {//10
     title: "Day Trading Precision",
@@ -138,13 +93,8 @@ const useCases = [
     profit: "$2,700",
     timeframe: "3 Hours",
     strategy: "Price Action",
-    description: "Multiple successful scalp trades using pure price action and level 2 data.",
-    keyPoints: [
-      "Price action reading",
-      "Level 2 interpretation",
-      "Quick decision making",
-      "Precise execution"
-    ]
+    description: "Trade Breakdown: Maria executed multiple successful scalp trades using pure price action and level 2 data, generating $2,700 in just 3 hours.",
+    keyPoints: []
   },
   {//11
     title: "Momentum Strategy Win",
@@ -152,13 +102,8 @@ const useCases = [
     profit: "$5,400",
     timeframe: "4 Hours",
     strategy: "Momentum Stocks",
-    description: "Captured strong momentum moves in high-volume stocks during market hours.",
-    keyPoints: [
-      "Volume analysis",
-      "Momentum confirmation",
-      "Entry timing",
-      "Profit maximization"
-    ]
+    description: "Trade Breakdown: Chris captured strong momentum moves in high-volume stocks during market hours, generating $5,400 in just 4 hours.",
+    keyPoints: []
   },
   {//12
     title: "Mean Reversion Trade",
@@ -166,13 +111,8 @@ const useCases = [
     profit: "$3,300",
     timeframe: "1 Day",
     strategy: "Statistical Arbitrage",
-    description: "Successfully executed mean reversion strategy on correlated pairs.",
-    keyPoints: [
-      "Statistical analysis",
-      "Correlation tracking",
-      "Entry/exit optimization",
-      "Risk control implementation"
-    ]
+    description: "Trade Breakdown: Successfully executed mean reversion strategy on correlated pairs, generating $3,300 in 1 day.",
+    keyPoints: []
   }
 ];
 
@@ -202,7 +142,7 @@ export default function UseCasesCarousel() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Real Trading Success Stories
+              Member Wins: See the Profits Flowing
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Discover how our members achieve consistent profits using our proven strategies

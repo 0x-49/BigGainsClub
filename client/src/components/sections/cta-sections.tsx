@@ -9,7 +9,7 @@ const CTASections = () => {
       <div className="responsive-container relative py-20">
         <div className="text-center">
           <p className="text-blue-1200 dark:text-blue-8400 mb-12 max-w-3xl mx-auto text-xl leading-relaxed">
-            Stop watching from the sidelines.  **Demand your gains.  Start trading like the 1%.**  Real mentorship and signals are waiting.
+            Stop watching from the sidelines. <strong>Demand your gains. Start trading like the 1%.</strong> Real mentorship and signals are waiting.
           </p>
           <a
             href={AFFILIATE_URL}
@@ -24,7 +24,7 @@ const CTASections = () => {
       <div className="responsive-container relative py-20">
         <div className="text-center">
           <p className="text-blue-1200 dark:text-blue-8400 mb-12 max-w-3xl mx-auto text-xl leading-relaxed">
-          **Tired of trading losses?  It's time to flip the script.**  Big Gains Club Premium delivers the edge you need to finally profit consistently.
+          <strong>Tired of trading losses? It's time to flip the script.</strong> Big Gains Club Premium delivers the edge you need to finally profit consistently.
           </p>
           <a
             href={AFFILIATE_URL}
@@ -39,7 +39,7 @@ const CTASections = () => {
       <div className="responsive-container relative py-20">
         <div className="text-center">
           <p className="text-blue-1200 dark:text-blue-8400 mb-12 max-w-3xl mx-auto text-xl leading-relaxed">
-            Don't trade alone and get crushed.  **Join the elite. Learn from the best.  Big Gains Club Premium community is your unfair advantage.**
+            Don't trade alone and get crushed. <strong>Join the elite. Learn from the best. Big Gains Club Premium community is your unfair advantage.</strong>
           </p>
           <a
             href={AFFILIATE_URL}
@@ -54,7 +54,7 @@ const CTASections = () => {
       <div className="responsive-container relative py-20">
         <div className="text-center">
           <p className="text-blue-1200 dark:text-blue-8400 mb-12 max-w-3xl mx-auto text-xl leading-relaxed">
-          **Stop hesitating, start dominating.**  Unlock real-time signals, daily mentorship, and the community that will change your trading game.
+          <strong>Stop hesitating, start dominating.</strong> Unlock real-time signals, daily mentorship, and the community that will change your trading game.
           </p>
           <a
             href={AFFILIATE_URL}
@@ -69,7 +69,7 @@ const CTASections = () => {
       <div className="responsive-container relative py-20">
         <div className="text-center">
           <p className="text-blue-1200 dark:text-blue-8400 mb-12 max-w-3xl mx-auto text-xl leading-relaxed">
-            Still guessing your trades?  **That's for losers.**  Big Gains Club Premium gives you the intel and firepower to actually win.
+            Still guessing your trades? <strong>That's for losers.</strong> Big Gains Club Premium gives you the intel and firepower to actually win.
           </p>
           <a
             href={AFFILIATE_URL}
@@ -84,7 +84,7 @@ const CTASections = () => {
       <div className="responsive-container relative py-20">
         <div className="text-center">
           <p className="text-blue-1200 dark:text-blue-8400 mb-12 max-w-3xl mx-auto text-xl leading-relaxed">
-            **Transform yourself from struggling trader to market dominator.** The tools, mentorship, and community you need are here.
+            <strong>Transform yourself from struggling trader to market dominator.</strong> The tools, mentorship, and community you need are here.
           </p>
           <a
             href={AFFILIATE_URL}
@@ -99,7 +99,7 @@ const CTASections = () => {
       <div className="responsive-container relative py-20">
         <div className="text-center">
           <p className="text-blue-1200 dark:text-blue-8400 mb-12 max-w-3xl mx-auto text-xl leading-relaxed">
-            **Doubt your trades?  Stop it.**  Get the confidence and strategy you need with Big Gains Club Premium.  Actionable signals and expert guidance inside.
+            <strong>Doubt your trades? Stop it.</strong> Get the confidence and strategy you need with Big Gains Club Premium. Actionable signals and expert guidance inside.
           </p>
           <a
             href={AFFILIATE_URL}
@@ -114,7 +114,7 @@ const CTASections = () => {
       <div className="responsive-container relative py-20">
         <div className="text-center">
           <p className="text-blue-1200 dark:text-blue-8400 mb-12 max-w-3xl mx-auto text-xl leading-relaxed">
-            **No more excuses. No more losses.**  Big Gains Club Premium is the straight path to results for serious traders.
+            <strong>No more excuses. No more losses.</strong> Big Gains Club Premium is the straight path to results for serious traders.
           </p>
           <a
             href={AFFILIATE_URL}
@@ -129,7 +129,7 @@ const CTASections = () => {
       <div className="responsive-container relative py-20">
         <div className="text-center">
           <p className="text-blue-1200 dark:text-blue-8400 mb-12 max-w-3xl mx-auto text-xl leading-relaxed">
-            **Premium access. Premium results. Premium community.**  Step into the world of elite trading with Big Gains Club Premium.
+            <strong>Premium access. Premium results. Premium community.</strong> Step into the world of elite trading with Big Gains Club Premium.
           </p>
           <a
             href={AFFILIATE_URL}
@@ -144,7 +144,7 @@ const CTASections = () => {
       <div className="responsive-container relative py-20">
         <div className="text-center">
           <p className="text-blue-1200 dark:text-blue-8400 mb-12 max-w-3xl mx-auto text-xl leading-relaxed">
-             **Take control of your trading future.**  Big Gains Club Premium empowers you with the knowledge and signals to trade with authority.
+             <strong>Take control of your trading future.</strong> Big Gains Club Premium empowers you with the knowledge and signals to trade with authority.
           </p>
           <a
             href={AFFILIATE_URL}
@@ -159,7 +159,7 @@ const CTASections = () => {
       <div className="responsive-container relative py-20">
         <div className="text-center">
           <p className="text-blue-1200 dark:text-blue-8400 mb-12 max-w-3xl mx-auto text-xl leading-relaxed">
-             **Think you're ready for the big leagues of trading?**  Prove it.  Big Gains Club Premium is the training ground for serious success.
+             <strong>Think you're ready for the big leagues of trading?</strong> Prove it. Big Gains Club Premium is the training ground for serious success.
           </p>
           <a
             href={AFFILIATE_URL}
@@ -174,7 +174,7 @@ const CTASections = () => {
       <div className="responsive-container relative py-20">
         <div className="text-center">
           <p className="text-blue-1200 dark:text-blue-8400 mb-12 max-w-3xl mx-auto text-xl leading-relaxed">
-             **Real signals. Real mentorship. Real gains.**  Get everything you need to elevate your trading, all in one place.
+             <strong>Real signals. Real mentorship. Real gains.</strong> Get everything you need to elevate your trading, all in one place.
           </p>
           <a
             href={AFFILIATE_URL}

@@ -5,29 +5,29 @@ const metrics = [
   {
     icon: Users,
     value: "600+",
-    label: "Active Traders",
-    description: "Join our thriving community of dedicated traders achieving consistent profits",
+    label: "Active Traders: Printing Consistent Profits.",
+    description: "",
     detail: "Our active community includes both novice and experienced traders from 30+ countries"
   },
   {
     icon: Award,
     value: "4.88",
-    label: "Rating",
-    description: "Based on 130+ verified member reviews and testimonials",
+    label: "4.88 Star Rating: 130+ Members Can't Be Wrong. Read the REAL reviews.",
+    description: "",
     detail: "Consistently rated as one of the top trading communities on Whop"
   },
   {
     icon: TrendingUp,
     value: "3X",
-    label: "Funded Challenges",
-    description: "Members passing funded trader programs with our strategies",
+    label: "3X Funded Challenges Passed: Our System WORKS to Get You Funded.",
+    description: "",
     detail: "Our members have secured over $5M in combined funding accounts"
   },
   {
     icon: Target,
     value: "95%",
-    label: "Success Rate",
-    description: "Members achieving consistent profitability within 90 days",
+    label: "95% Success Rate: See Consistent Profitability in 90 Days. Or you're not serious enough.",
+    description: "",
     detail: "Through our proven system of risk management and strategic trading"
   }
 ];
@@ -38,11 +38,8 @@ export default function SuccessMetrics() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Proven Track Record
+            Proof is in the Profits
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our members consistently achieve remarkable results through disciplined trading and expert mentorship
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

@@ -6,22 +6,22 @@ const features = [
   {
     icon: Signal,
     title: "Real-Time Alpha Signals",
-    description: "Stop guessing, start knowing. Get *instant access* to *battle-tested, high-probability trade setups* across crypto, forex, and more. These aren't just 'signals', they're your *unfair advantage*."
+    description: "Stop guessing, start knowing. Get <strong>instant access</strong> to <strong>battle-tested, high-probability trade setups</strong> across crypto, forex, and more. These aren't just 'signals', they're your <strong>unfair advantage</strong>."
   },
   {
     icon: Users,
-    title: "Expert Mentorship",
-    description: "Learn directly from successful traders through daily live sessions and personalized guidance."
+    title: "Unfiltered Expert Mentorship",
+    description: "Learn directly from proven, hardcore traders – no fluff, no BS. Daily live sessions, personalized guidance that actually gets results. We don't just teach, we forge winners.",
   },
   {
     icon: LineChart,
-    title: "Advanced Analytics",
-    description: "Track your progress with professional-grade trading analytics and performance metrics."
+    title: "Cutting-Edge Trading Analytics",
+    description: "Track your progress like a pro. <strong>Professional-grade analytics and performance metrics</strong> put you in control. <strong>Know your edge, sharpen your strategy, and dominate your performance.</strong>"
   },
   {
     icon: Zap,
-    title: "Premium Community",
-    description: "Connect with like-minded traders in our exclusive Discord community."
+    title: "Elite Trader Community",
+    description: "Don't trade in a vacuum. Join the <strong>exclusive Discord tribe</strong> of <strong>ambitious, results-driven traders.</strong> Connect, collaborate, and <strong>rise to the top together.</strong> <strong>No whiners, just winners.</strong>"
   }
 ];
 
@@ -48,7 +48,9 @@ export default function Features() {
                 <CardHeader>
                   <feature.icon className="h-12 w-12 text-primary mb-4" />
                   <CardTitle>{feature.title}</CardTitle>
-                  <CardDescription>{feature.description}</CardDescription>
+                  <CardDescription className="text-base">
+                    <span dangerouslySetInnerHTML={{ __html: feature.description }} />
+                  </CardDescription>
                 </CardHeader>
               </Card>
             </motion.div>

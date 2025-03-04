@@ -5,47 +5,27 @@ import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/ca
 const technologies = [
   {
     icon: Waves,
-    title: "Real-Time Analysis",
-    description: "Advanced algorithms analyze market patterns and identify high-probability setups across multiple timeframes.",
-    features: [
-      "Multi-timeframe correlation analysis",
-      "Volume profile and order flow analysis",
-      "Dynamic support/resistance levels",
-      "Real-time market sentiment indicators"
-    ]
+    title: "Market Vision: Real-Time Analysis",
+    description: "Advanced algorithms rip apart market patterns across multiple timeframes, revealing <strong>high-probability setups you'd otherwise miss.</strong>",
+    features: []
   },
   {
     icon: Cpu,
-    title: "AI-Powered Signals",
-    description: "Machine learning models process vast amounts of market data to generate precise entry and exit points.",
-    features: [
-      "Neural network price prediction",
-      "Pattern recognition algorithms",
-      "Volatility forecasting",
-      "Risk-adjusted position sizing"
-    ]
+    title: "AI-Driven Signals: Predictive Power Unleashed",
+    description: "Machine learning models crunch massive data to generate <strong>precise entry and exit points, giving you a data-backed edge.</strong>",
+    features: []
   },
   {
     icon: LineChart,
-    title: "Performance Analytics",
-    description: "Sophisticated tracking tools monitor your progress and help optimize your trading strategy.",
-    features: [
-      "Detailed trade journal integration",
-      "Risk management metrics",
-      "Performance attribution analysis",
-      "Custom strategy backtesting"
-    ]
+    title: "Performance Domination: Advanced Analytics",
+    description: "Sophisticated tools track your progress and <strong>optimize your strategy for peak performance.</strong> <strong>Know where you excel, fix where you fail.</strong>",
+    features: []
   },
   {
     icon: Zap,
-    title: "Instant Execution",
-    description: "Lightning-fast signal delivery ensures you never miss a profitable trading opportunity.",
-    features: [
-      "Sub-millisecond signal delivery",
-      "Multi-broker compatibility",
-      "Automated entry/exit alerts",
-      "Smart order routing"
-    ]
+    title: "Lightning-Fast Signals: Never Miss the Move",
+    description: "Sub-millisecond signal delivery ensures you <strong>never miss a profitable opportunity.</strong> Multi-broker ready. Automated alerts. <strong>Execute with speed and precision.</strong>",
+    features: []
   }
 ];
 
@@ -55,11 +35,8 @@ export default function TradingTech() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Cutting-Edge Trading Technology
+            <strong>Under the Hood: The Tech That Fuels Our Winners.</strong> Our proprietary tech stack - advanced analytics and AI - gives you the <strong>unstoppable edge</strong> in today's unforgiving markets.
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our proprietary tech stack gives you the edge in today's markets through advanced analytics and AI-driven insights
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
@@ -81,7 +58,7 @@ export default function TradingTech() {
                     {tech.title}
                   </CardTitle>
                   <CardDescription className="text-base mb-4">
-                    {tech.description}
+                    <span dangerouslySetInnerHTML={{ __html: tech.description }} />
                   </CardDescription>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     {tech.features.map((feature, i) => (

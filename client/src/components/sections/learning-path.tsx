@@ -4,50 +4,30 @@ import { GraduationCap, Target, Trophy, Rocket, ArrowUpRight } from "lucide-reac
 const steps = [
   {
     icon: GraduationCap,
-    title: "Foundation",
-    description: "Master the fundamentals of technical analysis and risk management through our comprehensive A-Z course.",
-    milestones: [
-      "Price action mastery",
-      "Chart pattern recognition",
-      "Risk management principles",
-      "Trading psychology basics"
-    ],
+    title: "Foundation: Build Your Trading Base (Weeks 1-2).",
+    description: "Master the <strong>essential</strong> technical analysis and risk management – <strong>no fluff, just what prints profits.</strong> Learn price action secrets, chart patterns, and the psychology of winning traders. <strong>Skip the years of trial and error. Get the core knowledge, fast.</strong>",
+    milestones: [],
     duration: "Week 1-2"
   },
   {
     icon: Target,
-    title: "Practice",
-    description: "Apply your knowledge with real-time market analysis and daily live trading sessions with expert mentors.",
-    milestones: [
-      "Live market analysis",
-      "Real-time trade execution",
-      "Position sizing strategies",
-      "Trade journal development"
-    ],
+    title: "Practice: Trade with the Pros (Weeks 2-4).",
+    description: "<strong>Stop paper trading and start learning in LIVE FIRE.</strong> Apply your knowledge in <strong>real-time market analysis and daily trading sessions with expert mentors.</strong> <strong>Execute trades, learn proper sizing, and build your trading journal – all with expert guidance.</strong>",
+    milestones: [],
     duration: "Week 2-4"
   },
   {
     icon: Trophy,
-    title: "Achievement",
-    description: "Pass funded trader challenges and start managing significant capital with our proven strategies.",
-    milestones: [
-      "Challenge preparation",
-      "Risk parameters mastery",
-      "Consistent execution",
-      "Account scaling tactics"
-    ],
+    title: "Achievement: Get Funded & Get Paid (Weeks 4-6).",
+    description: "<strong>Stop trading with peanuts.</strong> Our <strong>proven strategies are designed to pass funded trader challenges – FAST.</strong> Master risk parameters, consistent execution, and scaling tactics to <strong>manage real capital and claim your payouts.</strong>",
+    milestones: [],
     duration: "Week 4-6"
   },
   {
     icon: Rocket,
-    title: "Growth",
-    description: "Scale your trading career with ongoing mentorship and advanced trading techniques.",
-    milestones: [
-      "Advanced strategy development",
-      "Portfolio management",
-      "Market correlation analysis",
-      "Professional networking"
-    ],
+    title: "Growth: Scale to the Top (Week 6+).",
+    description: "<strong>The journey never ends. Scale your trading career with ongoing mentorship and advanced techniques.</strong> Develop advanced strategies, portfolio management skills, and <strong>build your network to reach the highest levels of trading success.</strong> <strong>The 1% lifestyle awaits.</strong>",
+    milestones: [],
     duration: "Week 6+"
   }
 ];
@@ -58,11 +38,8 @@ export default function LearningPath() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Path to Trading Mastery
+            The Fast-Track to Trading Domination
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A structured approach to becoming a successful trader, backed by expert mentorship and proven methodologies
-          </p>
         </div>
 
         <div className="relative">
@@ -85,7 +62,7 @@ export default function LearningPath() {
                   <h3 className="text-xl font-semibold text-center mb-2 group-hover:text-primary transition-colors">
                     {step.title}
                   </h3>
-                  <p className="text-muted-foreground text-center mb-4">{step.description}</p>
+                  <p className="text-muted-foreground text-center mb-4" dangerouslySetInnerHTML={{ __html: step.description }} />
                   <div className="space-y-2 text-sm">
                     {step.milestones.map((milestone, i) => (
                       <div key={i} className="flex items-center text-muted-foreground">

@@ -7,7 +7,7 @@ const CTASection3 = () => {
     <div className="responsive-container relative py-20">
       <div className="text-center">
         <p className="text-blue-1200 dark:text-blue-8400 mb-12 max-w-3xl mx-auto text-xl leading-relaxed">
-          Don't trade alone and get crushed.  Join the elite. Learn from the best.  Big Gains Club Premium community is your unfair advantage.
+          <em><em>Stop trading alone and getting REKT</em></em>. Join the elite or get left behind. Big Gains Club Premium community is your unfair, f\<em>cking advantage.</em>
         </p>
         <a
           href={AFFILIATE_URL}
