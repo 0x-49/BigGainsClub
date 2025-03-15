@@ -1,15 +1,15 @@
-import { Helmet } from "react-helmet";
+import SEOManager from "@/components/seo/seo-manager";
 import Header from "@/components/sections/header";
 import Footer from "@/components/sections/footer";
 
 export default function Privacy() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <Helmet>
-        <title>Privacy Policy | Big Gains Club Premium</title>
-        <meta name="description" content="Privacy Policy for Big Gains Club Premium. Learn how we protect and handle your personal information." />
-        <meta name="robots" content="noindex" />
-      </Helmet>
+      <SEOManager
+        title="Privacy Policy"
+        description="Privacy Policy for Big Gains Club Premium. Learn how we protect and handle your personal information."
+        noindex={true}
+      />
 
       <Header />
       

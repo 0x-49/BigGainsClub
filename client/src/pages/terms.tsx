@@ -1,15 +1,15 @@
-import { Helmet } from "react-helmet";
+import SEOManager from "@/components/seo/seo-manager";
 import Header from "@/components/sections/header";
 import Footer from "@/components/sections/footer";
 
 export default function Terms() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <Helmet>
-        <title>Terms of Service | Big Gains Club Premium</title>
-        <meta name="description" content="Terms of Service for Big Gains Club Premium. Read our terms and conditions for using our trading education and community platform." />
-        <meta name="robots" content="noindex" />
-      </Helmet>
+      <SEOManager
+        title="Terms of Service"
+        description="Terms of Service for Big Gains Club Premium. Read our terms and conditions for using our trading education and community platform."
+        noindex={true}
+      />
 
       <Header />
       

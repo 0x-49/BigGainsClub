@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import SEOManager from "@/components/seo/seo-manager";
 import Hero from "@/components/sections/hero";
 import Features from "@/components/sections/features";
 import SuccessMetrics from "@/components/sections/success-metrics";
@@ -29,15 +29,10 @@ import CtaSection12 from "@/components/sections/cta-section-12";
 export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
-      <Helmet>
-        <title>Big Gains Club Premium | Elite Trading Education & Community</title>
-        <meta name="description" content="Join Big Gains Club Premium for real-time trading signals, live mentorship, and a passionate community focused on growing wealth. Daily live trading sessions, comprehensive education, and proven strategies." />
-        <meta property="og:title" content="Big Gains Club Premium | Elite Trading Education & Community" />
-        <meta property="og:description" content="Join Big Gains Club Premium for real-time trading signals, live mentorship, and a passionate community focused on growing wealth." />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <script type="application/ld+json">
-          {JSON.stringify({
+      <SEOManager
+        title="Elite Trading Education & Community"
+        description="Join Big Gains Club Premium for real-time trading signals, live mentorship, and a passionate community focused on growing wealth. Daily live trading sessions, comprehensive education, and proven strategies."
+        structuredData={{
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "Big Gains Club",
@@ -52,9 +47,8 @@ export default function Home() {
             },
             "telephone": "(800) 589-4356",
             "email": "info@JoinBigGainsClub.com"
-          })}
-        </script>
-      </Helmet>
+          }}
+      />
 
       <Hero />
       <CtaSection1 />

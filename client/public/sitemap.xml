@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://biggainsclub.com/</loc>
+    <loc>https://joinbiggainsclub.com/</loc>
     <lastmod>2025-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://biggainsclub.com/terms</loc>
+    <loc>https://joinbiggainsclub.com/terms</loc>
     <lastmod>2025-02-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://biggainsclub.com/privacy</loc>
+    <loc>https://joinbiggainsclub.com/privacy</loc>
     <lastmod>2025-02-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://biggainsclub.com/cookies</loc>
+    <loc>https://joinbiggainsclub.com/cookies</loc>
+    <lastmod>2025-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://joinbiggainsclub.com/cookies</loc>
     <lastmod>2025-02-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>

@@ -6,4 +6,4 @@ Disallow: /terms
 Disallow: /privacy
 Disallow: /cookies
 
-Sitemap: https://biggainsclub.com/sitemap.xml
+Sitemap: https://joinbiggainsclub.com/sitemap.xml
